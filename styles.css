@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Kufam:ital,wght@0,400..900;1,400..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+body {
+    overflow-x: hidden;
+    font-family: "Kufam", sans-serif;
+    max-height: 1000px;
+    margin: 3px 10px;
+}
+
+
+
+h1{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    margin: 200px 80px 100px;
+}
+
+#read-more-link {
+    border: solid 2px rgb(255, 253, 253); 
+    padding: 20px 30px;
+    border-radius: 100px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#read-more-link:hover {
+    background-color: black;
+    color: white
+}
+
+#description {
+    width: 400px;
+    font-size: larger;
+    float: right;
+    margin: 0;
+    color: #B7B7B7;
+} 
+
+nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+nav ul {
+    display: inline-block;
+    margin: 0px;
+    color: rgb(99, 99, 99)
+}
+
+nav {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1400px;
+    top: 0;
+}
+
+#main-link {
+    font-weight: bolder;
+    color: white
+}
+
+#texture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 750px;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+}
+h2 {
+
+    font-size: 80px;
+    color:rgb(0, 0, 0) ;
+}
+#about-me p {
+    font-size: 25px;
+    color:rgb(78, 78, 78);
+    width: 400px;
+    float :right;
+    margin: 60px 50px;
+}
+#about-me img {
+    height: 550px;
+}
+
+#about-me {
+    padding: 299px 100px;
+}
+.background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#main .background {
+    top: 0;
+    background: linear-gradient(#464646,#9b9b9b,#7e7e7e, #ffffff );
+    height: 770px;
+}
+
+#about-me .background {
+    top: 770px;
+    background: linear-gradient(#FFFFFF,#B7B7B7, #9d9d9b ); 
+    height: 1080px;
+}
+
+#skills .background {
+    top: 1650px;
+    background: linear-gradient( #9d9d9b ,#B7B7B7, #FFFFFF );
+    height: 800px;
+}
+#skills {
+    color: black;
+    padding: 20px 50px;
+}
+#skills h2 {
+    text-align: right;
+    margin: 0 ;
+}
+
+#skills figure {
+    display: inline-block;
+    width: 300px;
+    margin: 0 120px;
+    margin-right: 30px;
+}
+
+#skills figure img {
+    height: 300px;
+    margin-bottom: 30px;
+
+}
+#skills figure figcaotion {
+    font-size: 20px;
+    
+}
+
+#project .background {
+    top: 2450px;
+    background: linear-gradient(#9d9d9b ,#B7B7B7, #FFFFFF);
+    height: 800px;
+}
+
+
+#project p {
+    width: 50%;
+    font-size: 40px;
+    padding-top: 30px;
+
+}
+#project .gallery {
+    float: right;
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+#project .gallery img {
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 50px;
+
+}
+#project {
+    padding: 70px 20px;
+}
+
+#thanks .background {
+    top: 3250px;
+    background: linear-gradient(#464646,#9b9b9b,#7e7e7e, #ffffff);
+    height: 950px;
+}
+#thanks {
+    clear: both;
+    padding: 120px 30px;
+    width: 50%;
+    font-size: 25px;
+    
+}
+#thanks h2 {
+    color:#000000;
+    font-weight: 40px;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+nav a {
+    color: rgb(93, 87, 144);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#thanks a {
+    color:#000000;
+    text-decoration: none;
+}
+
+#thanks a:hover {
+    color:#B7B7B7
+ }
